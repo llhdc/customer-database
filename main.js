@@ -4,7 +4,7 @@ let title = document.createElement('h1');
 let titleText = document.createTextNode('Internal Company Directory');
 title.appendChild(titleText);
 
-// wrapper.appendChild(title);
+wrapper.appendChild(title);
 
 
 
