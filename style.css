@@ -1,16 +1,68 @@
+html, body {
+  margin: 0;
+}
 .wrapper {
   font-family: sans-serif;
   font-weight: 100;
-  text-transform: uppercase;
   letter-spacing: .5px;
   border-radius: 3px;
-  border: 1px solid black;
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
 }
 
-h2 {
+h1 {
   text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+span {
+  text-transform: capitalize;
+  border-bottom: 1px solid green;
+  border-bottom-width: medium;
+
 }
 
 main {
+
+}
+
+ul {
   display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0 50px;
+  padding: 0;
+}
+
+li {
+  flex-basis: 24.5%;
+  margin: 0;
+}
+
+li img {
+  width: 95%;
+  height: auto;
+}
+.info {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+
+}
+
+.email {
+  text-transform: uppercase;
+  color: lightgrey;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#ssn {
+  text-shadow: 0 0 32px green;
+  color: transparent;
 }
