@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
 }
+
 .wrapper {
   font-family: sans-serif;
   font-weight: 100;
@@ -20,7 +21,7 @@ h1 {
 }
 
 span {
-  text-transform: capitalize;
+  text-transform: uppercase;
   border-bottom: 1px solid green;
   border-bottom-width: medium;
 
